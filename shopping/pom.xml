@@ -22,7 +22,6 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.5.2.RELEASE</version>
   </parent>
 
   <dependencies>
@@ -32,9 +31,20 @@
     </dependency>
     
     <dependency>
+    	<groupId>com.h2database</groupId>
+    	<artifactId>h2</artifactId>
+    </dependency>
+    
+    <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
       <version>${guava.version}</version>
+    </dependency>
+    
+    <dependency>
+    	<groupId>io.springfox</groupId>
+    	<artifactId>springfox-swagger-ui</artifactId>
+    	<version>${swagger.version}</version>
     </dependency>
     
     <dependency>

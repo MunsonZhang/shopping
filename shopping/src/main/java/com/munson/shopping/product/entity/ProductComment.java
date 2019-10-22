@@ -3,6 +3,9 @@ package com.munson.shopping.product.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 import com.google.common.base.MoreObjects;
 
 public class ProductComment implements Serializable {
